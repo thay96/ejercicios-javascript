@@ -93,18 +93,18 @@ switch (mes) {
   case "Agosto":
   case "Octubre":
   case "Diciembre":
-    console.log("Este mes tiene 31 días");
+    console.log("Estos meses tienen 31 días");
     break;
 
   case "Abril":
   case "Junio":
   case "Septiembre":
   case "Noviembre":
-    console.log("Este mes tiene 30 días");
+    console.log("Estos meses tienen 30 días");
     break;
 
   case "Febrero":
-    console.log("Este mes tiene 28 o 29 días");
+    console.log("Estes mes tiene 28");
     break;
 
   default:
@@ -170,3 +170,38 @@ switch (mes1) {
 }
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
+
+mes = "Enero";
+
+switch (mes) {
+  case "Enero":
+  case "Marzo":
+  case "Mayo":
+  case "Julio":
+  case "Agosto":
+  case "Octubre":
+  case "Diciembre":
+    console.log("Estos meses tienen 31 días");
+    break;
+
+  case "Abril":
+  case "Junio":
+  case "Septiembre":
+  case "Noviembre":
+    console.log("Estos meses tienen 30 días");
+    break;
+
+  case "Abril":
+  case "Junio":
+  case "Septiembre":
+  case "Noviembre":
+    console.log("Estos meses tienen 30 días");
+    break;
+
+  case "Febrero":
+    console.log("Estes mes tiene 28");
+    break;
+
+  default:
+    console.log("Mes no válido");
+}
